@@ -1,0 +1,198 @@
+body{
+    font-size: 14px;
+}
+
+header{
+    background: url("../image/armchair-couch.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+header.container{
+    z-index: 1;
+}
+
+header img{
+    height: 50%;
+    z-index: 1;
+}
+
+header i {
+    color: #fff;
+    z-index: 1;
+}
+
+header .btn-custom{
+    border: #fff 1px solid;
+    border-radius: 15px;
+    z-index: 1;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    color: #fff;
+    z-index: 1;
+}
+
+.btn-custom:hover{
+    border: #fff 1px solid;
+    border-radius: 15px;
+    z-index: 1;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.bg-overlay{
+    background: rgba(0, 0, 0, 0.6); /* Negro con 60% de opacidad */
+    z-index: 0; /* Asegura que esté detrás del contenido */
+    height: 500px;
+}
+
+#info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+#info i{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 87px;
+    color: #ECCA73;
+    padding: 26px;
+}
+
+#info .card {
+    border: none;
+    text-align: center;
+    color: #5F5956;
+}
+
+#info .card-title{
+    text-transform: uppercase;
+
+}
+
+#history{
+    background: url("../image/girl-receiving-facial-treatment-beauty-salon.jpg");
+    height: auto;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#history .container{
+    overflow: hidden; /* Evita que el contenido exceda el contenedor */
+    height: auto; /* Ajusta dinámicamente la altura al contenido */
+    min-height: 100vh;
+}
+
+.card-text-right{
+    text-align: end;
+    font-size: 18px;
+}
+
+footer{
+    background: #5F5956;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+}
+
+footer ul li i {
+    color: #fff;
+    font-size: 40px;
+}
+
+footer ul li{
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+}
+
+footer img{
+    width: 200px;
+}
+
+.btn-appointment{
+    background-color: #5F5956;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.btn-appointment:hover{
+    background-color: #5F5956;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.btn-return{
+    background: transparent;
+    border:1px solid #c2c2c5;
+    border-radius: 50px;
+}
+
+.btn-return:hover{
+    background: transparent;
+    border:1px solid #c2c2c5;
+    border-radius: 50px;
+}
+
+#appointment{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#appointment .card {
+    border: 1px solid #E7E7E9;
+    width: 100%;
+    padding: 25px;
+}
+
+#appointment .card-title{
+    text-align: center;
+}
+
+.border{
+    border-bottom: 1px solid #E7E7E9 ;
+}
+
+.texto {
+    color: #c2c2c5;
+}
+
+.card-services{
+    border-left: 4px solid #ECCA73 !important;
+    border-radius: none;
+}
+
+.d-none {
+    display: none; /* Oculta el card */
+  }
+  
+.d-block {
+    display: block; /* Muestra el card */
+}
+
+#card4 {
+    width: 100%;
+}
+
+#card4 .card{
+    border: none;
+    height: 100%;
+}
+.border-right{
+    border-right: 1px solid #E7E7E9 !important;
+}
